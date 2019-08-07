@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/memory_background_3"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:fontFamily="casual"
+        android:text="@string/settings"
+        android:textColor="#000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/relativeMusic">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music"
+            android:fontFamily="casual"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_margin="5dp"
+            android:id="@+id/music_tv"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:text="@string/music"
+            android:fontFamily="casual"
+            android:layout_below="@id/music_tv"
+            android:layout_marginTop="10dp"
+            android:id="@+id/music_btn"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"/>
+
+
+        <Button
+            android:id="@+id/sound_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/music_tv"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_shape"
+            android:fontFamily="casual"
+            android:text="@string/sound"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_shape"
+        android:text="@string/default_Settings"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:fontFamily="casual"
+        android:id="@+id/default_btn"
+        />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_shape"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:textSize="30sp" />
+
+</LinearLayout>

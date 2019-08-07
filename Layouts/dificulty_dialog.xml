@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGray"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/difficulty_choice"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="casual"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:background="@color/colorDarkGray"
+        android:checkedButton="@id/newbie_rb"
+        android:id="@+id/difficulty_rg">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newbie"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_gravity="left"
+            android:fontFamily="casual"
+            android:buttonTint="#000"
+            android:id="@+id/newbie_rb"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intermediate"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_gravity="left"
+            android:fontFamily="casual"
+            android:buttonTint="#000"
+            android:id="@+id/intermediate_rb"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pro"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_gravity="left"
+            android:fontFamily="casual"
+            android:buttonTint="#000"
+            android:id="@+id/pro_rb"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expert"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_gravity="left"
+            android:fontFamily="casual"
+            android:buttonTint="#000"
+            android:id="@+id/expert_rb"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/btn_shape"
+        android:text="@string/begin_game"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:id="@+id/begin_btn"/>
+
+</LinearLayout>
