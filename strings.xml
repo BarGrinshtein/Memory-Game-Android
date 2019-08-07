@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Memory Play</string>
+    <string name="memory_match_play">Memory match play</string>
+    <string name="new_game">New game</string>
+    <string name="records">Records</string>
+    <string name="rules">Rules</string>
+    <string name="settings">Settings</string>
+    <string name="difficulty_choice">Please pick a difficulty level:</string>
+    <string name="newbie">Newbie</string>
+    <string name="intermediate">Intermediate</string>
+    <string name="pro">Pro</string>
+    <string name="expert">Expert</string>
+    <string name="begin_game">Begin!</string>
+    <string name="got_it">Got_it!</string>
+    <string name="music">music</string>
+    <string name="sound">sound</string>
+    <string name="languages">Languages</string>
+    <string name="default_Settings">Default Settings</string>
+    <string name="back">Back</string>
+    <string name="rules_dialog"> <![CDATA[Welcome to the best memory game ever! The rules are very simple:
+    1. The main goal is to flip two identical cards at the same turn.
+    2. Each turn is limited by specific time, if you won't think fast, you lose your turn.
+    3. The game is over when all the cards are flipped over, the player with the most successful turns wins.
+    ]]>   </string>
+    <string name="p1_turn">P1 turn</string>
+    <string name="palyer_1_won">player 1 won!</string>
+    <string name="player2_won">player 2_won</string>
+    <string name="draw">It\'s A Draw!</string>
+    <string name="save">save</string>
+    <string name="main_menu">main menu</string>
+    <string name="remach">Remach</string>
+    <string name="insert_name">insert your name</string>
+    <string name="name">Name</string>
+    <string name="turns">Turns</string>
+</resources>

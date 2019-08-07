@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/card_back_2" android:height="60dp" android:width="45dp">
+        <shape >
+            <corners android:radius="10dp"/>
+            <stroke android:width="2dp"
+                android:color="#fff"/>
+        </shape>
+    </item>
+
+</layer-list>
