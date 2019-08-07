@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"
+        android:id="@+id/title_tv"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkGray"
+        android:gravity="start"
+        android:textSize="20sp"
+        android:padding="7dp"
+        android:text="@string/rules_dialog"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:layout_margin="10dp"
+        android:layout_below="@id/title_tv"
+        android:id="@+id/rules_tv"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rules_tv"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape"
+        android:text="@string/got_it"
+        android:textSize="30sp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:gravity="center"
+        android:id="@+id/accept_btn"
+        android:fontFamily="casual"
+        android:layout_marginBottom="5dp"/>
+
+
+</RelativeLayout>
