@@ -1,0 +1,4 @@
+Memory Game for Android - Good old fashioned memory game developed as a game app for Android (mobile). 
+App is developed with an emphasis on good UI/UX, 
+in addition it allows the user to select a level of difficulty (which affects the time limits). 
+Fully developed in Java for the Android OS.
